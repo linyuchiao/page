@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: azure;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(158, 206, 208);
+    padding-top: 20px;
+    position: fixed;
+
+}
+
+a {
+    /*移除連結底線*/
+    text-decoration: none;
+    color: rgb(81, 122, 158);
+    padding: 14px 16px;
+}
+
+nav {
+    padding-top: 14px;
+}
+
+.link.A {
+    padding-top: 10px;
+}
+
+/*設定廣告幻燈片*/
+.advertisment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.content {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content .ad {
+    height: 100%;
+    width: 100%;
+}
+
+.ad img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.item {
+    width: 200px;
+    padding: 0px 5px;
+}
+
+.item img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    padding: 50px;
+    background-color: rgba(158, 183, 175, 0.323);
+    text-align: center;
+}
+
+button {
+    font-size: 5px;
+    padding: 0px;
+    transition-duration: 0.4s;
+}
