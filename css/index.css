@@ -32,6 +32,10 @@ nav {
     padding-top: 10px;
 }
 
+.search {
+    padding-top: 14px;
+}
+
 /*設定廣告幻燈片*/
 .advertisment {
     display: flex;
